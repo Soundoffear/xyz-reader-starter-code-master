@@ -1,0 +1,16 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/article_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black_letters"
+        android:textSize="@dimen/detail_body_text_size"
+        android:padding="@dimen/paddingText"
+        tools:text="Text"/>
+
+</android.support.v4.widget.NestedScrollView>
